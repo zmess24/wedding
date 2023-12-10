@@ -17,7 +17,7 @@ function Navbar() {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
 	return (
-		<header className="absolute inset-x-0 top-0 z-50 lg:bg-white">
+		<header className="lg:fixed absolute inset-x-0 top-0 z-50 bg-white">
 			<nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 				<div className="lg:flex lg:flex-1 hidden">
 					<h4 className="text-black text-lg leading-6 font-semibold">ZM | LD</h4>
@@ -25,7 +25,7 @@ function Navbar() {
 				<div className="flex lg:hidden">
 					<button
 						type="button"
-						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black"
 						onClick={() => setMobileMenuOpen(true)}
 					>
 						<span className="sr-only">Open main menu</span>
