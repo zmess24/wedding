@@ -6,41 +6,41 @@ import RouteWrapper from "../components/RouteWrapper";
 
 const faqs = [
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "What date should I RSVP by?",
+		answer: "More to come!",
 	},
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "Could you give me a link to your wedding registry?",
+		answer: "We aren't expecting wedding gifts due to this event being a destination wedding - the presence of our freinds & family is all we need! However, if you would still like to get us something, we would happily accept donataions to our honeymoon fund!",
 	},
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "What is the dress code for the wedding?",
+		answer: "The dress code will be formal while accomodating due to the Hawaiin environment. If you have specific questions, please contact Lauren or Zac directly.",
 	},
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "What will the weather be like?",
+		answer: "Princeville typically experiences warm and pleasant weather in September, with daytime temperatures in mid-70s to the high 80s, and nighttime temperatures in the mid-60s to low 70s. September is typically part of the dry season in Hawaii, so you can expect relatively low rainfall compared to other months. However, please note the weather may change depending on which side of the island you are on!",
 	},
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "Have you reserved a block of rooms at the 1 Hotel?",
+		answer: "Yes! If you are interested in being a part of our room block which has discounted rates, please contact Lauren or Zac directly. Otherwise, check out our Accomations page for some recommendations on where to stay!",
 	},
 	{
-		question: "What's the best thing about Switzerland?",
-		answer: "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+		question: "I have more questions about your wedding, who can I contact?",
+		answer: "Please contact either Lauren or Zac directly with any additional questions, comments, or concerns!",
 	},
 ];
 
 function FAQ() {
 	return (
-		<RouteWrapper backgroundColor="bg-white">
+		<RouteWrapper backgroundColor="bg-white h-screen">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl py-16">
 					<div className="text-center">
 						<h1 className="text-3xl font-bold tracking-tight text-black sm:text-6xl font-italiana pb-5">FAQ</h1>
-						<dl className="space-y-6 divide-y divide-gray-900/10">
-							{faqs.map((faq) => (
-								<Disclosure as="div" key={faq.question} className="pt-6">
+						<dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
+							{faqs.map((faq, i) => (
+								<Disclosure as="div" key={i} className="pt-6">
 									{({ open }) => (
 										<>
 											<dt>

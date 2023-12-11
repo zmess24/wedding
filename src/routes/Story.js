@@ -9,7 +9,7 @@ function Story() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl py-16">
 					<div className="text-center">
-						<h1 className="text-3xl font-bold tracking-tight text-black sm:text-6xl font-italiana pb-5">Our Story</h1>
+						<h1 className="text-3xl tracking-tight text-black sm:text-6xl font-italiana pb-5">Our Story</h1>
 						<Carousel autoPlay={true} interval={5000} transitionTime={1000}>
 							<div>
 								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
