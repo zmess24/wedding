@@ -2,7 +2,6 @@ import React from "react";
 import { Route, createRoutesFromElements, createBrowserRouter } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./routes/Home";
-import Kauai from "./routes/Kauai";
 import Rsvp from "./routes/Rsvp";
 import Story from "./routes/Story";
 import Wedding from "./routes/Wedding";
@@ -10,12 +9,12 @@ import Travel from "./routes/Travel";
 import ThingsToDo from "./routes/ThingsToDo";
 import Accomodations from "./routes/Accomodations";
 import FAQ from "./routes/FAQ";
+import ErrorPage from "./components/ErrorPage";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
-		<Route element={<Layout />}>
+		<Route element={<Layout />} errorElement={<ErrorPage />}>
 			<Route path="/" element={<Home />} />
-			<Route path="/kauai" element={<Kauai />} />
 			<Route path="/story" element={<Story />} />
 			<Route path="/rsvp" element={<Rsvp />} />
 			<Route path="/wedding" element={<Wedding />} />
