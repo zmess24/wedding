@@ -1,7 +1,18 @@
 import React from "react";
 import RouteWrapper from "../components/RouteWrapper";
 import { Carousel } from "react-responsive-carousel";
+import Gallery1 from "../assets/gallery_1.jpg";
+import Gallery2 from "../assets/gallery_2.jpg";
+import Gallery4 from "../assets/gallery_4.JPG";
+import Gallery5 from "../assets/gallery_5.jpg";
+import Gallery6 from "../assets/gallery_6.jpg";
+import Gallery7 from "../assets/gallery_7.jpg";
+import Gallery8 from "../assets/gallery_8.jpg";
+import Gallery9 from "../assets/gallery_9.jpg";
+import Gallery10 from "../assets/gallery_10.jpg";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "../styles/overrides.css";
 
 function Story() {
 	return (
@@ -12,34 +23,32 @@ function Story() {
 						<h1 className="text-3xl tracking-tight text-black sm:text-6xl font-italiana pb-5">Our Story</h1>
 						<Carousel autoPlay={true} interval={5000} transitionTime={1000}>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery4} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery1} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery8} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery2} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery5} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery6} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery7} />
+							</div>
+
+							<div>
+								<img src={Gallery9} />
 							</div>
 							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-							</div>
-							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-							</div>
-							<div>
-								<img src="https://plus.unsplash.com/premium_photo-1661347815899-f5b2e866a830?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+								<img src={Gallery10} />
 							</div>
 						</Carousel>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5">
