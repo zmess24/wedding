@@ -51,35 +51,30 @@ function Story() {
 								<img src={Gallery10} />
 							</div>
 						</Carousel>
-						<p className="text-md leading-6 text-gray-600 font-roboto pb-5">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Bibendum est ultricies integer quis
-							auctor elit sed vulputate. Sit amet cursus sit amet dictum sit. Adipiscing enim eu turpis egestas. Fames ac turpis egestas
-							maecenas pharetra convallis posuere morbi. Et malesuada fames ac turpis egestas sed tempus urna et. Interdum velit laoreet
-							id donec ultrices tincidunt. Morbi tristique senectus et netus et malesuada fames ac turpis. Nec tincidunt praesent semper
-							feugiat nibh sed pulvinar. Et pharetra pharetra massa massa ultricies mi quis hendrerit. Amet porttitor eget dolor morbi
-							non arcu risus quis varius. Libero id faucibus nisl tincidunt eget nullam. Vitae nunc sed velit dignissim sodales ut eu.
-							Nullam eget felis eget nunc lobortis. Sit amet nisl purus in mollis nunc. Id eu nisl nunc mi ipsum faucibus. Odio ut sem
-							nulla pharetra diam. Nam aliquam sem et tortor consequat id.
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							In 2015, Stamford, Connecticut, became the backdrop of a modern love story when Zac and Lauren first met in a local bar.
+							Zac's unwavering persistence, despite Lauren's initial rejections, eventually led to a breakthrough. Almost a year later,
+							in 2016, they embarked on their first date, marking the beginning of their unique journey together. However, life's
+							unpredictable paths saw Lauren moving to Boston and Zac to Los Angeles, leading to a hiatus in their budding romance. For
+							three years, they lost contact, living separate lives across the country. However, destiny hadn't finished its part in
+							their story.
 						</p>
-						<p className="text-md leading-6 text-gray-600 font-roboto pb-5">
-							Nibh cras pulvinar mattis nunc sed. Risus at ultrices mi tempus imperdiet nulla malesuada. Diam sit amet nisl suscipit
-							adipiscing bibendum est ultricies. Tellus pellentesque eu tincidunt tortor aliquam nulla. Nisl tincidunt eget nullam non
-							nisi est. Sed viverra ipsum nunc aliquet bibendum enim. Vitae congue mauris rhoncus aenean vel elit. Proin libero nunc
-							consequat interdum varius sit amet mattis. Ultricies tristique nulla aliquet enim tortor. Nulla pharetra diam sit amet
-							nisl suscipit. Commodo odio aenean sed adipiscing diam donec adipiscing. Bibendum arcu vitae elementum curabitur vitae.
-							Pharetra sit amet aliquam id diam maecenas ultricies. Sed risus ultricies tristique nulla aliquet. Dolor sit amet
-							consectetur adipiscing elit pellentesque habitant morbi. Pretium vulputate sapien nec sagittis aliquam. In est ante in
-							nibh mauris. Massa id neque aliquam vestibulum. Enim sit amet venenatis urna cursus eget nunc.
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							In the midst of the unpredictable year that was 2020, Zac reached out inviting Lauren to a friend's wedding in Los
+							Angeles. Lauren accepted, but the pandemic postponed the event. Undeterred, she traveled to LA on September 29th, 2020,
+							for a visit that rekindled their connection. This visit ignited a long-distance relationship, with love bridging the miles
+							between them. After three months of nurturing their love across the distance, Lauren made a bold decision in January 2021.
+							She moved to Los Angeles, choosing to be with Zac and start a new chapter in their lives together, proving that love knows
+							no bounds.
 						</p>
-						<p className="text-md leading-6 text-gray-600 font-roboto">
-							Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Nascetur ridiculus mus mauris vitae ultricies leo. Egestas
-							erat imperdiet sed euismod nisi porta lorem. Vulputate mi sit amet mauris. Nulla aliquet enim tortor at auctor urna nunc.
-							Neque ornare aenean euismod elementum. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Eget nullam non
-							nisi est sit amet. At augue eget arcu dictum. Nibh tellus molestie nunc non blandit massa enim nec dui. Tristique risus
-							nec feugiat in fermentum posuere urna nec tincidunt. Vitae congue eu consequat ac felis donec et odio pellentesque. Odio
-							ut sem nulla pharetra diam sit amet nisl. Convallis a cras semper auctor neque vitae tempus quam. Sagittis purus sit amet
-							volutpat.
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							7 years after their first initial encoutner, Zac decided to take the next step. Amidst the breathtaking scenery of the
+							Kalalau Trail in Kaua'i, Zac proposed to Lauren. This romantic gesture on the Hawaiian trail marked the culmination of
+							their unique journey and the beginning of a new adventure as life partners.
+						</p>
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							Their love story, from the initial encounter in a Connecticut bar to a proposal in the Hawaiian paradise, is a testament
+							to enduring love, resilience, and the belief that sometimes, taking a chance can lead to a lifetime of happiness.
 						</p>
 					</div>
 				</div>
