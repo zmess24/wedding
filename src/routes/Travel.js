@@ -1,6 +1,5 @@
 import React from "react";
 import RouteWrapper from "../components/RouteWrapper";
-import { ArrowUpIcon, GlobeAsiaAustraliaIcon, CheckBadgeIcon, ClockIcon, ArrowDownIcon, UsersIcon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlane, faCar, faSun, faWater } from "@fortawesome/free-solid-svg-icons";
 

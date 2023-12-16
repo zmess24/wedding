@@ -24,32 +24,32 @@ function Story() {
 						<h1 className="text-3xl tracking-tight text-black sm:text-6xl font-italiana pb-5">Our Story</h1>
 						<Carousel autoPlay={true} interval={5000} transitionTime={1000}>
 							<div>
-								<img src={Gallery4} />
+								<img src={Gallery4} alt="Gallery 1" />
 							</div>
 							<div>
-								<img src={Gallery1} />
+								<img src={Gallery1} alt="Gallery 2" />
 							</div>
 							<div>
-								<img src={Gallery8} />
+								<img src={Gallery8} alt="Gallery 8" />
 							</div>
 							<div>
-								<img src={Gallery2} />
+								<img src={Gallery2} alt="Gallery 2" />
 							</div>
 							<div>
-								<img src={Gallery5} />
+								<img src={Gallery5} alt="Gallery 5" />
 							</div>
 							<div>
-								<img src={Gallery6} />
+								<img src={Gallery6} alt="Gallery 6" />
 							</div>
 							<div>
-								<img src={Gallery7} />
+								<img src={Gallery7} alt="Gallery 7" />
 							</div>
 
 							<div>
-								<img src={Gallery9} />
+								<img src={Gallery9} alt="Gallery 9" />
 							</div>
 							<div>
-								<img src={Gallery10} />
+								<img src={Gallery10} alt="Gallery 10" />
 							</div>
 						</Carousel>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">

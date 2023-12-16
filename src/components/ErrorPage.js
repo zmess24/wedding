@@ -1,10 +1,7 @@
-import { useRouteError, Link } from "react-router-dom";
 import RouteWrapper from "./RouteWrapper";
 import Navbar from "./Navbar";
 
 export default function ErrorPage() {
-	const error = useRouteError();
-
 	return (
 		<div className="bg-white">
 			<Navbar />

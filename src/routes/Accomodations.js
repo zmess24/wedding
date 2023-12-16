@@ -38,11 +38,11 @@ function Accomodations() {
 										</dt>
 										<dd className="text-base font-roboto leading-7 text-gray-600 pb-5 gap-y-10">{a.description}</dd>
 										<dd className="text-base leading-7 text-gray-600 pb-5 hover:underline cursor-pointer">
-											<a target="_blank" href={a.link}>
+											<a target="_blank" href={a.link} rel="noreferrer">
 												{a.linkText}
 											</a>
 										</dd>
-										<img className="h-80 w-full mb-5" src={a.image} />
+										<img className="h-80 w-full mb-5" src={a.image} alt="Accomodations Background" />
 									</div>
 								);
 							})}
