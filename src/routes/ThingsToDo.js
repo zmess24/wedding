@@ -190,7 +190,7 @@ function ThingsToDo() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-4xl py-16">
 					<div>
-						<h1 className="text-center text-3xl tracking-tight text-white sm:text-6xl font-italiana pb-5">Things to Do</h1>
+						<h1 className="text-center tracking-tight text-white text-6xl font-italiana pb-5">Things to Do</h1>
 						<dl className="space-y-8 divide-y divide-white bg-gray-400 bg-opacity-30 rounded-md px-5 py-5">
 							{todos.map((todo) => (
 								<div key={todo.id} className="lg:grid lg:grid-cols-12 lg:gap-8">

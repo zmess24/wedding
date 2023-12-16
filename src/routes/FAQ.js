@@ -37,7 +37,7 @@ function FAQ() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl py-16">
 					<div className="text-center">
-						<h1 className="text-3xl font-bold tracking-tight text-black sm:text-6xl font-italiana pb-5">FAQ</h1>
+						<h1 className="font-bold tracking-tight text-black text-6xl font-italiana pb-5">FAQ</h1>
 						<dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
 							{faqs.map((faq, i) => (
 								<Disclosure as="div" key={i} className="pt-6">

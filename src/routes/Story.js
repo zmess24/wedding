@@ -21,7 +21,7 @@ function Story() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl py-16">
 					<div className="text-center">
-						<h1 className="text-3xl tracking-tight text-black sm:text-6xl font-italiana pb-5">Our Story</h1>
+						<h1 className="tracking-tight text-black text-6xl font-italiana pb-5">Our Story</h1>
 						<Carousel autoPlay={true} interval={5000} transitionTime={1000}>
 							<div>
 								<img src={Gallery4} alt="Gallery 1" />

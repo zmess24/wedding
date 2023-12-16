@@ -26,7 +26,7 @@ function Accomodations() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-7xl py-16">
 					<div className="text-center pb-5">
-						<h1 className="text-3xl tracking-tight text-black sm:text-6xl font-italiana pb-5">Accomodations</h1>
+						<h1 className="tracking-tight text-black text-6xl font-italiana pb-5">Accomodations</h1>
 					</div>
 					<dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
 						{accomodations &&

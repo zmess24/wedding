@@ -60,7 +60,7 @@ function Travel() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-4xl py-16">
 					<div>
-						<h1 className="text-center text-3xl tracking-tight text-white sm:text-6xl font-italiana pb-5">Travel</h1>
+						<h1 className="text-center tracking-tight text-white text-6xl font-italiana pb-5">Travel</h1>
 						<div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-gray-200 shadow sm:grid sm:grid-cols-2 sm:gap-px sm:divide-y-0">
 							{actions.map((action, actionIdx) => (
 								<div
