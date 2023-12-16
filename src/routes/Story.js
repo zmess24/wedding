@@ -1,6 +1,6 @@
 import React from "react";
 import RouteWrapper from "../components/RouteWrapper";
-import { Carousel } from "react-responsive-carousel";
+// Images for Gallery
 import Gallery1 from "../assets/gallery_1.jpg";
 import Gallery2 from "../assets/gallery_2.jpg";
 import Gallery4 from "../assets/gallery_4.JPG";
@@ -10,7 +10,8 @@ import Gallery7 from "../assets/gallery_7.jpg";
 import Gallery8 from "../assets/gallery_8.jpg";
 import Gallery9 from "../assets/gallery_9.jpg";
 import Gallery10 from "../assets/gallery_10.jpg";
-
+// React Responsive Carousel & Styles/
+import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "../styles/overrides.css";
 
