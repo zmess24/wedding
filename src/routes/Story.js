@@ -52,30 +52,51 @@ function Story() {
 								<img src={Gallery10} alt="Gallery 10" />
 							</div>
 						</Carousel>
+						<h3 className="text-black text-xl font-roboto pb-5 text-left leading-6">2015: Stamford, CT -- The Introduction</h3>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
-							In 2015, Stamford, Connecticut, became the backdrop of a modern love story when Zac and Lauren first met in a local bar.
-							Zac's unwavering persistence, despite Lauren's initial rejections, eventually led to a breakthrough. Almost a year later,
-							in 2016, they embarked on their first date, marking the beginning of their unique journey together. However, life's
-							unpredictable paths saw Lauren moving to Boston and Zac to Los Angeles, leading to a hiatus in their budding romance. For
-							three years, they lost contact, living separate lives across the country. However, destiny hadn't finished its part in
-							their story.
+							Thanks to a few too many vodka sodas and a friend attempting to play cupid, Zac and Lauren are introduced at the local hot
+							spot, Hudson Social. Despite the immediate attraction, Lauren decides to play her game of extremely hard to get to see
+							what he's all about. After far too many rejections (sorry Zac), Zac's unwavering persistence eventually leads to a
+							breakthrough and almost one full year later, Lauren says yes to a first date.
+						</p>
+						<h3 className="text-black text-xl font-roboto pb-5 text-left leading-6">2017: Stamford, CT -- Right Person, Wrong Time</h3>
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							Life finds Zac and Lauren at a crossroads, and the two end up moving in opposite directions -- Lauren heads to Boston and
+							Zac to Los Angeles. For three years, they lose contact, living separate lives across the country, with Zac sending the
+							occasional fire flames and heart eyes to Lauren's instagram story... We all know how that goes...
+						</p>
+						<h3 className="text-black text-xl font-roboto pb-5 text-left leading-6">
+							2020: New York City / Los Angeles, CA -- The Question
+						</h3>
+						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
+							Zac makes his boldest move yet, inviting Lauren to a friend's wedding in Malibu. Finding herself in the dead of winter in
+							NYC, Lauren readily accepts, but as the universe would have it, the pandemic quickly ruins those plans. After a few months
+							of back and forth, and some convincing from her father to "get back to living her life and have some fun," Lauren boards a
+							nearly empty plane to LA on September 29th, 2020, for a visit that would change everything.
 						</p>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
-							In the midst of the unpredictable year that was 2020, Zac reached out inviting Lauren to a friend's wedding in Los
-							Angeles. Lauren accepted, but the pandemic postponed the event. Undeterred, she traveled to LA on September 29th, 2020,
-							for a visit that rekindled their connection. This visit ignited a long-distance relationship, with love bridging the miles
-							between them. After three months of nurturing their love across the distance, Lauren made a bold decision in January 2021.
-							She moved to Los Angeles, choosing to be with Zac and start a new chapter in their lives together, proving that love knows
-							no bounds.
+							Zac pulls up to LAX lookin' fly, ready to make a lasting impression to win Lauren over after 3 years apart. Stepping out
+							of the car, playing it cool, Zac meets Lauren at the curb to grab her luggage, her beauty clearly stopping his brain cells
+							where they were as he leaves his car in drive and steps away from the vehicle. The car begins inching forward, at which
+							point Lauren notices and brings to Zac's attention. Not wanting to ruin the moment, Zac tries to keep his cool and make
+							conversation, all while trying to get his foot in the car to stop it before it hits the older woman's car just a few feet
+							in front of him. He finally gets his foot on the brake, just inches away from rear ending the car in front of him, and
+							continues to try and act like nothing happened. Neither one of them mentioned the mishap on the drive back to Venice, even
+							as Zac makes wrong turn after wrong turn, clearly flustered from what almost transpired. It was in that moment that Zac
+							won Lauren over- anyone that would sacrifice a car for her deserved a second chance.
 						</p>
+						<h3 className="text-black text-xl font-roboto pb-5 text-left leading-6">Jan 2021: Los Angeles, CA -- It's Official</h3>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
-							7 years after their first initial encoutner, Zac decided to take the next step. Amidst the breathtaking scenery of the
-							Kalalau Trail in Kaua'i, Zac proposed to Lauren. This romantic gesture on the Hawaiian trail marked the culmination of
-							their unique journey and the beginning of a new adventure as life partners.
+							After flying out to LA every few weeks after that initial visit, Lauren begins looking for jobs in LA, and after flying
+							out for Zac's birthday, she accepts a new position, has her car shipped across the country and finds a place to live. And
+							just like that, Zac and Lauren start their next, and best chapter, together.
 						</p>
+						<h3 className="text-black text-xl font-roboto pb-5 text-left leading-6">July 2023: Kauai, HI -- Best. Day. Ever</h3>
 						<p className="text-md leading-6 text-gray-600 font-roboto pb-5 text-left">
-							Their love story, from the initial encounter in a Connecticut bar to a proposal in the Hawaiian paradise, is a testament
-							to enduring love, resilience, and the belief that sometimes, taking a chance can lead to a lifetime of happiness.
+							7 years after their first encounter in CT, Zac plans the trip and gesture of a lifetime in his and Lauren's happy place,
+							Kauai, HI. 6 miles into hiking the incredible Kalalau Trail, on the most stunning secluded beach known as Hanakapi'ai, Zac
+							gets down on one knee and asks Lauren the question that changes the course of their lives forever. And this time, without
+							any hesitation, Lauren immediately says, yes.
 						</p>
 					</div>
 				</div>
