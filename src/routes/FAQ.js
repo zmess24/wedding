@@ -15,7 +15,7 @@ const faqs = [
 	},
 	{
 		question: "What is the dress code for the wedding?",
-		answer: "The dress code will be formal while accomodating due to the Hawaiin environment. If you have specific questions, please contact Lauren or Zac directly.",
+		answer: "The dress code will be formal while accomodating due to the Hawaiin climate. If you have specific questions, please contact Lauren or Zac directly.",
 	},
 	{
 		question: "What will the weather be like?",
@@ -23,7 +23,7 @@ const faqs = [
 	},
 	{
 		question: "Have you reserved a block of rooms at the 1 Hotel?",
-		answer: "Yes! If you are interested in being a part of our room block which has discounted rates, please contact Lauren or Zac directly. Otherwise, check out our Accomations page for some recommendations on where to stay!",
+		answer: "Yes! If you are interested in being a part of our room block which has discounted rates, please contact Lauren or Zac directly. Otherwise, check out our Accomodations page for some recommendations on where to stay!",
 	},
 	{
 		question: "I have more questions about your wedding, who can I contact?",

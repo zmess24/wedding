@@ -86,7 +86,7 @@ const todos = [
 			},
 			{
 				icon: faUtensils,
-				description: "Hanalei Bread Company (Cofee & Breakfast). Organic bakery and coffee house in the heart of Hanalei",
+				description: "Hanalei Bread Company (Coffee & Breakfast). Organic bakery and coffee house in the heart of Hanalei",
 			},
 			{
 				icon: faGolfBallTee,
