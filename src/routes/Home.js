@@ -10,7 +10,7 @@ function Home() {
 				<div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
 					<div className="text-center">
 						<h1 className="tracking-tight text-white text-6xl font-italiana">Lauren and Zac Messinger</h1>
-						<h3 className="mt-6 text-2xl leading-8 text-white font-italiana">Thursday, September 19th, 2023</h3>
+						<h3 className="mt-6 text-2xl leading-8 text-white font-italiana">Thursday, September 19th, 2024</h3>
 						<h3 className="mt-3 text-2xl leading-8 text-white font-italiana">1 Hotel | Kauai, HI</h3>
 					</div>
 				</div>
