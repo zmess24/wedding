@@ -11,7 +11,7 @@ const faqs = [
 	},
 	{
 		question: "Could you give me a link to your wedding registry?",
-		answer: "We aren't expecting wedding gifts due to this event being a destination wedding - the presence of our freinds & family is all we need! However, if you would still like to get us something, we would happily accept donataions to our honeymoon fund!",
+		answer: "This will be updated in the next few weeks!",
 	},
 	{
 		question: "What is the dress code for the wedding?",

@@ -27,7 +27,7 @@ const todos = [
 			},
 			{
 				icon: faUtensils,
-				description: "JoJo's Shave Ice (North Shore). Best shave ice on the island (get the macaedmia nut ice cream)",
+				description: "JoJo's Shave Ice (North Shore). Best shave ice on the island (get the macadamia nut ice cream)",
 			},
 			{
 				icon: faMugHot,
@@ -49,7 +49,7 @@ const todos = [
 			{
 				icon: faUtensils,
 				description:
-					"Welina Terrace (1 Hotel). Known for the best sunset views on Kaua'i, a is a modern, Japanese-inspired lounge overlooking Hanalei Bay",
+					"Welina Terrace (1 Hotel). Known for the best sunset views on Kaua'i, is a modern, Japanese-inspired lounge overlooking Hanalei Bay",
 			},
 		],
 	},
@@ -73,7 +73,7 @@ const todos = [
 			},
 			{
 				icon: faUmbrellaBeach,
-				description: "Hanalei Beach. The biggest public beach on the North Shore. Grab a bottle of wine to watch the sun go down",
+				description: "Hanalei Beach. The biggest public beach on the North Shore. Grab a bottle of wine & watch the sun go down",
 			},
 			{
 				icon: faUmbrellaBeach,
@@ -104,7 +104,7 @@ const todos = [
 			},
 			{
 				icon: faMugHot,
-				description: "Java Kai (Coffee). Stop on the way to the North Shore for a macademia nut latte's!",
+				description: "Java Kai (Coffee). Stop on the way to the North Shore for a macadamia nut latte!",
 			},
 			{
 				icon: faUtensils,
@@ -112,7 +112,7 @@ const todos = [
 			},
 			{
 				icon: faPersonHiking,
-				description: "Wailua Falls. Features a 180 foot waterfall that can swim in, relatively tough hike to get to",
+				description: "Wailua Falls. Features a 180 foot waterfall that you can swim in, relatively tough hike to get to",
 			},
 			{
 				icon: faPersonHiking,
