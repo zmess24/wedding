@@ -1,41 +1,30 @@
-import React, { useRef, useState } from "react";
-import emailjs from "email-js";
+import React, { useState } from "react";
 import GuestLookupForm from "./GuestLookupForm";
 import EmailForm from "./EmailForm";
 
-const TEMPLATE_ID = "template_a63ab3d";
-const SERVICE_ID = "service_2ut2rvz";
-const PUBLIC_KEY = "-rz6Rb0M8kLXKM_6J";
-const GUESTS = ["messinger"];
+const GUESTS = { messinger: ["Lauren Donohoe", "Zac Messinger"] };
 
 const RSVPForm = () => {
-	const form = useRef();
 	const [guest, setGuest] = useState("");
 	const [found, setFound] = useState(false);
 	const [error, setError] = useState(false);
-
-	const sendEmail = async (e) => {
-		e.preventDefault();
-
-		try {
-			let result = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY);
-			console.log(result);
-		} catch (err) {
-			console.error(err);
-		}
-	};
+	const [party, setParty] = useState([]);
 
 	const handleChange = (e) => {
 		if (found === true) setFound(false);
 		if (error === true) setError(false);
 
-		setGuest(e.target.value);
+		setGuest(e.target.value.toLowerCase());
 	};
 
 	const handleLookup = (e) => {
 		e.preventDefault();
-		console.log(guest);
-		GUESTS.indexOf(guest.toLowerCase()) > -1 ? setFound(true) : setError(true);
+		if (GUESTS[guest]) {
+			setFound(true);
+			setParty(GUESTS[guest]);
+		} else {
+			setError(true);
+		}
 	};
 
 	const handleCancel = () => {
@@ -45,17 +34,8 @@ const RSVPForm = () => {
 	return (
 		<div>
 			<GuestLookupForm handleSubmit={handleLookup} handleChange={handleChange} found={found} error={error} />
-			<EmailForm show={found} handleCancel={handleCancel} guest={guest} />
+			<EmailForm show={found} handleCancel={handleCancel} guest={guest} party={party} />
 		</div>
-		// <form ref={form} onSubmit={sendEmail}>
-		// 	<label>Name</label>
-		// 	<input type="text" name="user_name" />
-		// 	<label>Email</label>
-		// 	<input type="email" name="guest_names" />
-		// 	<label>Message</label>
-		// 	<textarea name="message" />
-		// 	<input type="submit" value="Send" />
-		// </form>
 	);
 };
 

@@ -33,8 +33,12 @@ function GuestLookupForm({ handleSubmit, handleChange, found, error }) {
 							Lookup Guest
 						</button>
 					</div>
-					<div hidden={!error} class="p-2 mt-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
-						<span class="font-medium">Sorry!</span> Unable to find your reservation.
+					<div
+						hidden={!error}
+						className="p-2 mt-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400"
+						role="alert"
+					>
+						<span className="font-medium">Sorry!</span> Unable to find your reservation.
 					</div>
 				</div>
 			</div>
