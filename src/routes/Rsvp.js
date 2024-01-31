@@ -1,5 +1,6 @@
 import React from "react";
 import RouteWrapper from "../components/RouteWrapper";
+import RSVPForm from "../components/RSVPForm";
 
 function Rsvp() {
 	return (
@@ -8,7 +9,7 @@ function Rsvp() {
 				<div className="mx-auto max-w-2xl py-16">
 					<div className="text-center">
 						<h1 className="tracking-tight text-black text-6xl font-italiana pb-5">RSVP</h1>
-						<p className="text-md leading-6 text-gray-600 font-roboto pb-5">Coming Soon!</p>
+						<RSVPForm />
 					</div>
 				</div>
 			</div>
