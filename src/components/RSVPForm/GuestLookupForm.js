@@ -1,10 +1,10 @@
 import React from "react";
 
-function GuestLookupForm({ handleSubmit, handleChange, found }) {
+function GuestLookupForm({ handleSubmit, handleChange, found, error }) {
 	return (
 		<form onSubmit={handleSubmit}>
 			<div className="space-y-12">
-				<div className="border-b border-gray-900/10 pb-12">
+				<div className="border-b border-gray-900/10 pb-8">
 					<div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 						<div className="col-span-full">
 							<label htmlFor="last_name" className="block text-sm font-medium leading-6 text-gray-900 text-center">
@@ -32,6 +32,9 @@ function GuestLookupForm({ handleSubmit, handleChange, found }) {
 						>
 							Lookup Guest
 						</button>
+					</div>
+					<div hidden={!error} class="p-2 mt-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+						<span class="font-medium">Sorry!</span> Unable to find your reservation.
 					</div>
 				</div>
 			</div>

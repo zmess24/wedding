@@ -12,6 +12,7 @@ const RSVPForm = () => {
 	const form = useRef();
 	const [guest, setGuest] = useState("");
 	const [found, setFound] = useState(false);
+	const [error, setError] = useState(false);
 
 	const sendEmail = async (e) => {
 		e.preventDefault();
@@ -25,9 +26,8 @@ const RSVPForm = () => {
 	};
 
 	const handleChange = (e) => {
-		if (found === true) {
-			setFound(false);
-		}
+		if (found === true) setFound(false);
+		if (error === true) setError(false);
 
 		setGuest(e.target.value);
 	};
@@ -35,7 +35,7 @@ const RSVPForm = () => {
 	const handleLookup = (e) => {
 		e.preventDefault();
 		console.log(guest);
-		if (GUESTS.indexOf(guest.toLowerCase()) > -1) setFound(true);
+		GUESTS.indexOf(guest.toLowerCase()) > -1 ? setFound(true) : setError(true);
 	};
 
 	const handleCancel = () => {
@@ -44,7 +44,7 @@ const RSVPForm = () => {
 
 	return (
 		<div>
-			<GuestLookupForm handleSubmit={handleLookup} handleChange={handleChange} found={found} />
+			<GuestLookupForm handleSubmit={handleLookup} handleChange={handleChange} found={found} error={error} />
 			<EmailForm show={found} handleCancel={handleCancel} guest={guest} />
 		</div>
 		// <form ref={form} onSubmit={sendEmail}>
