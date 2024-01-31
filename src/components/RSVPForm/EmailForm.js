@@ -1,20 +1,21 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const TEMPLATE_ID = "template_a63ab3d";
-const SERVICE_ID = "service_2ut2rvz";
-const PUBLIC_KEY = "-rz6Rb0M8kLXKM_6J";
+const EMAIL_JS_TEMPLATE_ID = process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID;
+const EMAIL_JS_SERVICE_ID = process.env.REACT_APP_EMAIL_JS_SERVICE_ID;
+const EMAIL_JS_PUBLIC_KEY = process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY;
 
-function EmailForm({ show, handleCancel, guest, party }) {
+console.log(EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, EMAIL_JS_PUBLIC_KEY);
+
+function EmailForm({ show, handleCancel, handleSubmit, guest, party }) {
 	const form = useRef();
-	let guestCap = guest.charAt(0).toUpperCase() + guest.slice(1);
 
 	const sendEmail = async (e) => {
 		e.preventDefault();
 
 		try {
-			let result = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY);
-			console.log(result);
+			await emailjs.sendForm(EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, form.current, EMAIL_JS_PUBLIC_KEY);
+			handleSubmit(true);
 		} catch (err) {
 			console.error(err);
 		}
@@ -25,6 +26,8 @@ function EmailForm({ show, handleCancel, guest, party }) {
 		let id = e.target.name.split("-")[1];
 		document.querySelector(`[name="rsvp-${id}"]`).value = status;
 	};
+
+	let guestCap = guest.charAt(0).toUpperCase() + guest.slice(1);
 
 	return (
 		<form hidden={!show} ref={form} onSubmit={sendEmail} name="rsvp-form">

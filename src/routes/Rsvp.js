@@ -1,6 +1,6 @@
 import React from "react";
 import RouteWrapper from "../components/RouteWrapper";
-import RSVPForm from "../components/RSVPForm";
+import RSVPForm from "../components/RSVPForm/index";
 
 function Rsvp() {
 	return (
