@@ -3,7 +3,7 @@ import GuestLookupForm from "./GuestLookupForm";
 import EmailForm from "./EmailForm";
 import { Transition } from "@headlessui/react";
 
-const GUESTS = { messinger: ["Lauren Donohoe", "Zac Messinger"] };
+const GUESTS = JSON.parse(process.env.REACT_APP_GUEST_LIST);
 
 const RSVPForm = () => {
 	const [guest, setGuest] = useState("");
