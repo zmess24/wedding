@@ -4,7 +4,7 @@ import EmailForm from "./EmailForm";
 import { Transition } from "@headlessui/react";
 
 const GUESTS = JSON.parse(process.env.REACT_APP_GUEST_LIST);
-
+debugger;
 const RSVPForm = () => {
 	const [guest, setGuest] = useState("");
 	const [found, setFound] = useState(false);
