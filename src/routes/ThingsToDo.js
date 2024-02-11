@@ -190,7 +190,18 @@ function ThingsToDo() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-4xl py-16">
 					<div>
-						<h1 className="text-center tracking-tight text-white text-6xl font-italiana pb-5">Things to Do</h1>
+						<div className="text-center">
+							<h1 className="text-center tracking-tight text-white text-6xl font-italiana pb-5">Things to Do</h1>
+							<p className="text-md leading-6 text-white font-roboto pb-5 italic">
+								<a
+									href="https://drive.google.com/file/d/1baLD6RLM32I8ONoydM3evgBgce9a04Zi/view?usp=sharing"
+									target="_blank"
+									rel="noreferrer"
+								>
+									For more island activities & to connect with our personal concierge, click here!
+								</a>
+							</p>
+						</div>
 						<dl className="space-y-8 divide-y divide-white bg-gray-400 bg-opacity-30 rounded-md px-5 py-5">
 							{todos.map((todo) => (
 								<div key={todo.id} className="lg:grid lg:grid-cols-12 lg:gap-8">
