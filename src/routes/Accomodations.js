@@ -7,7 +7,7 @@ const accomodations = [
 		description:
 			"The 1 Hotel Hanalei Bay brings a world-class wellness resort and flagship sustainable sanctuary to Kauai's North Shore, and serves as the weddomg venue location. For those interested, rooms can be reserved at a discounted rate of $679 per night (down from ~$1200) Tuesday to Sunday with a 2 night minimum. If you are interested in staying with us at the hotel, please let Lauren & Zac know directly so that you can be added to the room block.",
 		linkText: "View 1 Hotel Rooms",
-		link: "https://www.1hotels.com/book?currency=USD&endDate=2024-09-21&exactMatchOnly=false&hotelCode=5826&hotelProvider=1&numRooms=1&primaryLangId=en&promoCode=WINTER&startDate=2024-09-18&adults=1&children=0&clientId=1hotels&theme=null",
+		link: "https://be.synxis.com/?Hotel=5826&Chain=16024&config=Initial%20Config&theme=1HNB&arrive=2024-09-18&depart=2024-09-20&adult=1&child=0&group=8877465",
 		image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349512531.jpg?k=14721da9872329d9df53784578495c86d01f1f9a18464eb3282f40a0d91085b2&o=&hp=1",
 	},
 	{
