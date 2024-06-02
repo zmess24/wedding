@@ -10,6 +10,7 @@ import ThingsToDo from "./routes/ThingsToDo";
 import Accomodations from "./routes/Accomodations";
 import FAQ from "./routes/FAQ";
 import ErrorPage from "./components/ErrorPage";
+import Registry from "./routes/Registry";
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
 			<Route path="/wedding" element={<Wedding />} />
 			<Route path="/accomodations" element={<Accomodations />} />
 			<Route path="/travel" element={<Travel />} />
+			<Route path="/registry" element={<Registry />} />
 			<Route path="/things-to-do" element={<ThingsToDo />} />
 			<Route path="/faq" element={<FAQ />} />
 		</Route>
